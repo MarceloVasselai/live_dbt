@@ -24,5 +24,4 @@ models:
         description: "true se a idade for maior que 21"
         tests:
           - accepted_values:
-              values: { "maiority": [true, false] }
-          - quote: false
+              values: [true, false]
