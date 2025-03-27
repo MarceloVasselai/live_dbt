@@ -4,5 +4,5 @@ with inscritos as (
 
 select
   *,
-  age > 21 maiority
+  idade > 21 maiority
 FROM schema.inscritos

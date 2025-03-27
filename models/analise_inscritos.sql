@@ -4,6 +4,6 @@ with stage_inscritos as (
 
 select
   maiority,
-  count(maiority)
+  count(maiority) tot_maiority
 FROM stage_inscritos
 GROUP BY maiority
